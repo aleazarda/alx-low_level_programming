@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * print - the alphabet for ALX project
  *
  * Return: Always 0.
  */
