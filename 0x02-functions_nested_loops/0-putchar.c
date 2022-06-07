@@ -1,9 +1,9 @@
 #include <stdio.h>
+int main(void)
  /**
  * to print _putchar
  * Description: 'print _putchar'
  */
-int main(void)
 {
 printf("_putchar\n");
   /**
