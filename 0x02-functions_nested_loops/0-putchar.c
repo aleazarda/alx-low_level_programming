@@ -1,11 +1,9 @@
 #include <stdio.h>
  /**
  * to print _putchar
+ * Description: 'print _putchar'
  */
-int main()
-   /**
- * _putchar
- */
+int main(void)
 {
 printf("_putchar\n");
   /**
