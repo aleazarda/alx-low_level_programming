@@ -2,7 +2,7 @@
  /**
  * to print _putchar
  */
-int main(void)
+int main()
    /**
  * _putchar
  */
