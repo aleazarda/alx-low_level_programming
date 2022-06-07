@@ -1,4 +1,7 @@
 #include <stdio.h>
+ /**
+ * to print _putchar
+ */
 int main(void)
    /**
  * _putchar
