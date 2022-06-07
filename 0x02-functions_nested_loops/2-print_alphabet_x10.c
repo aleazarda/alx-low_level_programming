@@ -7,8 +7,8 @@
  */
 void print_alphabet_x10(void)
 {
-   char alp = 'a, j';
-
+   char alp = 'a';
+   int alp = 'j';
 	while (alp <= 'z')
 	{
     while (j <= 10)
