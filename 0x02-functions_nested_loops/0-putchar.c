@@ -1,10 +1,8 @@
 #include <stdio.h>
-/**
- * print_putchar
- * new line
- * return 0
- */
 int main(void)
+   /**
+ * _putchar
+ */
 {
 printf("_putchar\n");
   /**
