@@ -6,9 +6,10 @@
  */
 void print_alphabet(void)
 {
-  char alp="a"
-    while (alp="a"; alp="<=z"){
+  char alp=a'
+    while (alp='<=z'){
     putchar(alp);
+           alp++;
     }
     putchar(\n);
 }
