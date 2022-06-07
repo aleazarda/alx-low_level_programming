@@ -1,7 +1,5 @@
 #include <stdio.h>
 /**
- * print_putchar
- *
  * Description: _Putchar
  */
 int main(void)
