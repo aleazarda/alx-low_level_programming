@@ -1,41 +1,31 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * main - Fizz for multiples of 3 and Buzz for multiples of 5 FizzBuzz for both
- *
- *
- * Return: Always 0
+ * print_triangle - Print triangle dependent on the parameter size.
+ * @size : The height of the triangle
+ * Return: Void.
  */
-int main(void)
+void print_triangle(int size)
 {
-	int x = 1;
-
-	while (x < 101)
+	int i;
+	int x;
+	int spaces;
+;
+	for (i = 0; i < size; i++)
 	{
-		if (x % 3 == 0 && x % 5 == 0)
+		for (spaces = size - 1 - i; spaces > 0; spaces--)
 		{
-			printf("%s", "FizzBuzz");
+			_putchar(' ');
 		}
-		else if (x % 3 == 0)
+		for (x = 0; x <= i; x++)
 		{
-			printf("%s", "Fizz");
+			_putchar('#');
 		}
-		else if (x % 5 == 0)
-		{
-			printf("%s", "Buzz");
-		}
-		else
-		{
-			printf("%d", x);
-		}
-
-		if (x != 100)
-		{
-		printf(" ");
-		}
-		x++;
+		_putchar('\n');
 	}
-	printf("\n");
-	return (0);
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
 }
