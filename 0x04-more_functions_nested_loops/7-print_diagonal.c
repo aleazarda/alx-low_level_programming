@@ -9,12 +9,9 @@ int main(void)
     {
         for(int j = 0; j < size; j++)
         {
-            if(j == i)
-                printf("%c", builder);
-            else
-                printf(" ");
+          _putchar("%c", builder);
         }
-        printf("\n");
+        _putchar('\n');
     }
 
     return 0;
