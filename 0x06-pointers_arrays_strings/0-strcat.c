@@ -2,7 +2,8 @@
 
 /**
  * main - check the code
- *
+  *@dest: A pointer to a character that will be changed
+ *@src: A pointer to a character that will also be changed
  * Return: Always 0.
  */
 char *_strcat(char *dest, char *src)
