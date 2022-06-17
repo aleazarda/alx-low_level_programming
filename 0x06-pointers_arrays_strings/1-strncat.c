@@ -4,6 +4,7 @@
  * _strncat - check the code
  * @dest: A pointer to a character that will be changed
  * @src: A pointer to a character that will also be changed
+ *@n: value
  * Return: Always 0.
  */
 char *_strncat(char *dest, char *src, int n)
